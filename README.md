@@ -10,7 +10,7 @@ You can play the game normally, but the exciting thing about this version is the
 
 Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same tetromino appear.
 
-## Controls:
+## Controls
 
 Start the game by running "python3 tetris.py" in your terminal.
 
