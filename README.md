@@ -6,24 +6,26 @@ Source: Wikipedia
 
 ***
 
-The exciting thing about this version is that i implemented an AI, which can play the game on its own forever.
+The exciting thing about this version is the implemented AI, which can play the game on its own forever.
 
-The AI works by choosing the best one of all the possible positions the new tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following tetromino is taken into account, too. Weights were calculated using a generic algorithm.
+It works by choosing the best of all the possible positions the new tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following tetromino is taken into account, too. Weights were calculated using a generic algorithm.
 
 Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same tetromino appear.
 
 ***
 
-Controls:
+## Controls:
 
 Key | Function
 ----|---------
-▲ | turn clockwise
-◀ | move to the left
-▶ | move to the right
-▼ | move one block down
+↑ | turn clockwise
+← | move to the left
+→ | move to the right
+↓ | move one block down
 ↵ | move all the way down
 Q | quit game
 A | switch AI on/off
+
+***
 
 ~ idleice 21/05/2017
