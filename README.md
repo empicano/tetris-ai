@@ -1,8 +1,7 @@
 # TETRIS
 
-Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originally designed and programmed by
-Russian game designer Alexey Pajitnov. It was released on June 6, 1984. He derived its name from the Greek
-numerical prefix tetra (all of the game's pieces contain four segments) and tennis, his favorite sport.
+Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984. He derived its name from the Greek numerical prefix tetra (all of the game's pieces contain four segments) and tennis, his favorite sport.
+
 (Source: Wikipedia)
 
 You can either play the game yourself or let an AI do the hard work and enjoy watching.
