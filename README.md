@@ -1,6 +1,8 @@
 # TETRIS
 
-Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984. He derived its name from the Greek numerical prefix tetra (all of the game's pieces contain four segments) and tennis, his favorite sport. *(Source: Wikipedia)*
+Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984. He derived its name from the Greek numerical prefix tetra (all of the game's pieces contain four segments) and tennis, his favorite sport. 
+
+*(Source: Wikipedia)*
 
 ***
 
@@ -10,15 +12,18 @@ The AI works by choosing the best one of all the possible positions the new tetr
 
 Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same tetromino appear.
 
+***
+
 Controls:
-            ·-------·
-            | turn  |
-            | tetro |
-            ·-------·
-  ·-------· ·-------· ·-------·
-  | move  | | move  | | move  |
-  | left  | | down  | | right |
-  ·-------· ·-------· ·-------·
+
+|            ·-------·
+|            | turn  |
+|            | tetro |
+|            ·-------·
+|  ·-------· ·-------· ·-------·
+|  | move  | | move  | | move  |
+|  | left  | | down  | | right |
+|  ·-------· ·-------· ·-------·
 
 ENTER:     move tetromino down quickly
 Q:         quit game
