@@ -4,7 +4,7 @@ Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originall
 
 Source: Wikipedia
 
-***
+## The AI
 
 The exciting thing about this version is the implemented AI, which can play the game on its own forever.
 
@@ -12,20 +12,14 @@ It works by choosing the best of all the possible positions the new tetromino ca
 
 Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same tetromino appear.
 
-***
-
 ## Controls:
 
 Key | Function
 ----|---------
-↑ | turn clockwise
-← | move to the left
-→ | move to the right
-↓ | move one block down
+⇧ | turn clockwise
+⇦ | move to the left
+⇨ | move to the right
+⇩ | move one block down
 ↵ | move all the way down
 Q | quit game
 A | switch AI on/off
-
-***
-
-~ idleice 21/05/2017
