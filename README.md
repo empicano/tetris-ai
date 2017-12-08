@@ -14,7 +14,7 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 
 ***
 
-Controls:
+Controls
 : ▲      turn clockwise
 : ◀      move to the left
 : ▶      move to the right
