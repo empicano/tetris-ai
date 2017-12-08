@@ -15,8 +15,7 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 ***
 
 Controls:
-
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp·-------·
+<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>·-------·
 |            | turn  |
 |            | tetro |
 |            ·-------·
