@@ -15,19 +15,13 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 ***
 
 Controls:
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;turn&nbsp;&nbsp;|<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;tetro&nbsp;|<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br />
-&nbsp;&nbsp;·-------· ·-------· ·-------·<br />
-&nbsp;&nbsp;|&nbsp;move&nbsp;&nbsp;|&nbsp;|&nbsp;move&nbsp;&nbsp;|&nbsp;|&nbsp;move&nbsp;&nbsp;|<br />
-&nbsp;&nbsp;|&nbsp;left&nbsp;&nbsp;|&nbsp;|&nbsp;down&nbsp;&nbsp;|&nbsp;|&nbsp;right&nbsp;|<br />
-&nbsp;&nbsp;·-------· ·-------· ·-------·<br />
-<\p>
 
-ENTER:     move tetromino down quickly
-Q:         quit game
-A:         switch AI on/off
+:▲      turn clockwise
+:◀      move to the left
+:▶      move to the right
+:▼      move one block down
+:↵      move all the way down
+:Q      quit game
+:A      switch AI on/off
 
 ~ idleice 21/05/2017
