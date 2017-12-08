@@ -17,13 +17,13 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 Controls:
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| turn  |<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| tetro |<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;turn&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;tetro&nbsp;|<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br />
-&nbsp;&nbsp;  ·-------· ·-------· ·-------·<br />
-&nbsp;&nbsp;  | move  | | move  | | move  |<br />
-&nbsp;&nbsp;  | left  | | down  | | right |<br />
-&nbsp;&nbsp;  ·-------· ·-------· ·-------·<br />
+&nbsp;&nbsp;·-------· ·-------· ·-------·<br />
+&nbsp;&nbsp;|&nbsp;move&nbsp;&nbsp;|&nbsp;|&nbsp;move&nbsp;&nbsp;|&nbsp;|&nbsp;move&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;|&nbsp;left&nbsp;&nbsp;|&nbsp;|&nbsp;down&nbsp;&nbsp;|&nbsp;|&nbsp;right&nbsp;|<br />
+&nbsp;&nbsp;·-------· ·-------· ·-------·<br />
 <\p>
 
 ENTER:     move tetromino down quickly
