@@ -15,14 +15,15 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 ***
 
 Controls:
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br /></p>
-|            | turn  |
-|            | tetro |
-|            ·-------·
-|  ·-------· ·-------· ·-------·
-|  | move  | | move  | | move  |
-|  | left  | | down  | | right |
-|  ·-------· ·-------· ·-------·
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| turn  |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| tetro |
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·
+&nbsp;&nbsp;  ·-------· ·-------· ·-------·
+&nbsp;&nbsp;  | move  | | move  | | move  |
+&nbsp;&nbsp;  | left  | | down  | | right |
+&nbsp;&nbsp;  ·-------· ·-------· ·-------·
+<\p>
 
 ENTER:     move tetromino down quickly
 Q:         quit game
