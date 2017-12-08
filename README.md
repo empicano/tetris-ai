@@ -6,7 +6,7 @@ Source: Wikipedia
 
 ***
 
-The exciting thing about this version is that i implemented an AI, which can play the game on its own (as far as i know) forever.
+The exciting thing about this version is that i implemented an AI, which can play the game on its own forever.
 
 The AI works by choosing the best one of all the possible positions the new tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following tetromino is taken into account, too. Weights were calculated using a generic algorithm.
 
@@ -15,7 +15,7 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 ***
 
 Controls:
-<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>·-------·
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·-------·<br /></p>
 |            | turn  |
 |            | tetro |
 |            ·-------·
