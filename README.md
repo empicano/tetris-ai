@@ -12,7 +12,7 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 
 ## Controls:
 
-Start the game by running *python3 tetris.py* in your terminal.
+Start the game by running **python3 tetris.py** in your terminal.
 
 Key | Function
 ----|---------
