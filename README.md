@@ -6,13 +6,13 @@ Source: Wikipedia
 
 ## The Game
 
-You can play the game normally, but the exciting thing about this version is the implemented AI, which can play the game on its own forever. The AI works by choosing the best of all the possible positions the new tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following tetromino is taken into account, too. Weights were calculated using a generic algorithm.
+You can play the game like any other Tetris clone, but the exciting thing about this version is the implemented AI, which can play the game on its own forever. The AI works by choosing the best of all the possible positions the new Tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following Tetromino is taken into account, too. Weights were calculated using a generic algorithm.
 
-Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same tetromino appear.
+Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same Tetromino appear.
 
 ## Controls
 
-Start the game by running "python3 tetris.py" in your terminal.
+This program runs on Linux. There are no extra dependencies needed. Start the game by running "python3 tetris.py" in your terminal.
 
 Key | Function
 ----|---------
