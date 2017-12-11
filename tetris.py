@@ -469,9 +469,7 @@ def main(ai=False, vis=True, dna=None, seed=None):
     # exit procedure
     if vis:
         screen.cleanup()
-        print('Game Over!')
         print('Lines cleared:', screen.score)
-        print('© Felix Böhm')
     else:
         return screen.score
 
