@@ -315,7 +315,7 @@ class Genetics:
         population = []
         for _ in range(count):
             population.append(Genetics._normalize_vector([random.random() - 0.5 for _ in range(weights)]))
-        with open('/home/felix/Desktop/generation.txt', 'w') as log:
+        with open('/tmp/generation.txt', 'w') as log:
             for dna in population:
                 log.write(json.dumps(dna) + '\n')
 
@@ -327,7 +327,7 @@ class Genetics:
         # read last population
         population = []
         pop_count = 0
-        with open('/home/felix/Desktop/generation.txt', 'r') as log:
+        with open('/tmp/generation.txt', 'r') as log:
             for dna in log:
                 population.append([json.loads(dna[:-1]), 0])
                 pop_count += 1
@@ -359,7 +359,7 @@ class Genetics:
             population = sorted(population, key=lambda x: x[1], reverse=True)[:pop_count * 7 // 10]
             population += offspring
             # save last population
-            with open('/home/felix/Desktop/generation.txt', 'w') as log:
+            with open('/tmp/generation.txt', 'w') as log:
                 for dna in population:
                     log.write(json.dumps(dna[0]) + '\n')
             # print status
@@ -418,7 +418,8 @@ def main(ai=False, vis=True, dna=None, seed=None):
             if vis:
                 screen.update_message('GAME OVER!')
                 time.sleep(2)
-        else:
+
+                else:
             if ai:
                 # compute best move
                 pos, rotation = AI.get_best_move(screen.bit_rep(), dna, tetro, follow)
