@@ -12,7 +12,7 @@ Tetrominos are chosen by shuffling the seven shapes. The resulting list of shape
 
 ## Controls
 
-This program runs on Linux. There are no extra dependencies needed. Start the game by running "python3 tetris.py" in your terminal.
+This program runs on Linux. Start the game by running "python3 tetris.py" in your terminal. There are no extra dependencies needed. 
 
 Key | Function
 ----|---------
