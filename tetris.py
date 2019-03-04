@@ -95,7 +95,7 @@ class Screen:
     BORDER_LEFT = 3
     BORDER_TOP = 3
     MIN_LEVEL = 1
-    MAX_LEVEL = 10
+    MAX_LEVEL = 1000
 
     def __init__(self, vis):
         """Initiates curses; Prepares terminal; Sets color pairs; Builds board"""
@@ -378,7 +378,7 @@ class Creator:
         """Returns next random piece"""
         if self.index == 0: random.shuffle(self.cards)
         out = Tetromino(self.cards[self.index])
-        self.index = self.index + 1 if self.index < len(LETTERS) - 1 else 0
+        self.index = (self.index + 1) % len(LETTERS)
         return out
 
 
@@ -400,8 +400,7 @@ def main(ai=False, vis=True, dna=None, seed=None):
     while running:
 
         # when learning, end game after a few tetrominos
-        if not vis and tetro_count == 1000:
-            break
+        if not vis and tetro_count == 1000: break
         tetro_count += 1
 
         # remove full rows, decide following tetromino, update score and level
@@ -419,7 +418,7 @@ def main(ai=False, vis=True, dna=None, seed=None):
                 screen.update_message('GAME OVER!')
                 time.sleep(2)
 
-                else:
+        else:
             if ai:
                 # compute best move
                 pos, rotation = AI.get_best_move(screen.bit_rep(), dna, tetro, follow)
@@ -470,10 +469,11 @@ def main(ai=False, vis=True, dna=None, seed=None):
     # exit procedure
     if vis:
         screen.cleanup()
-        print('Lines cleared:', screen.score)
+        print('Game Over! Lines cleared:', screen.score)
     else:
         return screen.score
 
 
 # start game
 main()
+
