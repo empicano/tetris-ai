@@ -1,25 +1,24 @@
-# TETRIS
+![Tetris-Banner](banner.png)
 
-Tetris (Russian: Те́трис) is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. It was released on June 6, 1984. He derived its name from the Greek numerical prefix tetra and tennis, his favorite sport. 
+>Did you know that Alexey Pajitnov, the original Tetris designer, derived the games name from the Greek numerical tetra (four) and tennis, his favorite sport?
 
-Source: Wikipedia
+## This Version
 
-## The Game
+The exciting thing about this version is the implemented AI, which can play the game better (primarily a lot faster) than any human. I let it run until it hit one million cleared lines, so i assume that it can play forever.
 
-You can play the game like any other Tetris clone, but the exciting thing about this version is the implemented AI, which can play the game on its own forever. The AI works by choosing the best of all the possible positions the new Tetromino can take in by evaluating the resulting boards based on weighted values (e.g. number of gaps). The following Tetromino is taken into account, too. Weights were calculated using a generic algorithm.
+The AI chooses for a new Tetronimo the best of all the possible positions the latter can take in by evaluating each one of the resulting boards based on weighted values (e.g. added height of all comumns) and finally choosing the one that yields the best score. I calculated the weights using a genetic algorithm, which can also be found in the source code.
 
-Tetrominos are chosen by shuffling the seven shapes. The resulting list of shapes are the ones played next. This ensures that no long sequences of the same Tetromino appear.
+This program runs on Linux using the Curses module. Start the game by running `python3 tetris.py` in your terminal.
 
 ## Controls
 
-This program runs on Linux. Start the game by running "python3 tetris.py" in your terminal. There are no extra dependencies needed. 
-
 Key | Function
 ----|---------
-⇧ | turn clockwise
-⇦ | move to the left
-⇨ | move to the right
-⇩ | move one block down
-↵ | move all the way down
-Q | quit game
-A | switch AI on/off
+⇧   | turn clockwise
+⇦   | move to the left
+⇨   | move to the right
+⇩   | move one block down
+↵   | move all the way down
+Q   | quit game
+A   | switch AI on/off
+
