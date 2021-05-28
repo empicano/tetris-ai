@@ -1,4 +1,4 @@
-![Tetris-Banner](banner.png)
+https://user-images.githubusercontent.com/26978146/120046881-754fae80-c013-11eb-8846-9f18c598ac29.mp4
 
 >Did you know that Alexey Pajitnov, the original Tetris designer, derived the games name from the Greek numerical tetra (four) and tennis, his favorite sport?
 
